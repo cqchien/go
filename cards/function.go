@@ -1,14 +1,14 @@
-package main
+package cards
 
 import "fmt"
 
-func getCard() {
-	card := newCard();
+func GetCard() {
+	card := NewCard();
 
 	fmt.Println(`This is a card:`, card)
 }
 
-func newCard() string {
+func NewCard() string {
 	// Init a slice of strings
 	card := "Ace of Spades"
 

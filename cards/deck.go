@@ -1,4 +1,4 @@
-package main
+package cards
 
 import (
 	"math/rand"
@@ -69,7 +69,7 @@ func newDeck() deck {
 
 func getCardsWithNewType() {
 	// Init a slice of strings
-	cards := deck{"Ace of Spades", newCard()}
+	cards := deck{"Ace of Spades", NewCard()}
 
 	// Add an element to the slice
 	cards = append(cards, "Six of Spades")

@@ -1,8 +1,8 @@
-package main
+package cards
 
-func getCards() {
+func GetCards() {
 	// Init a slice of strings
-	cards := []string{"Ace of Spades", newCard()}
+	cards := []string{"Ace of Spades", NewCard()}
 
 	// Add an element to the slice
 	cards = append(cards, "Six of Spades")

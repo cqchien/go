@@ -1,8 +1,8 @@
-package main
+package cards
 
 import "fmt"
 
-func getVariables() {
+func GetVariables() {
 	// Init a variable with a type
 	// var card string = "Ace of Spades"
 

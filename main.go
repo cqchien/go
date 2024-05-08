@@ -1,8 +1,6 @@
 package main
 
-// import (
-// 	"fmt"
-// )
+import cards "main/cards"
 
 // Run: go run .
 func main() {
@@ -10,17 +8,17 @@ func main() {
 	 * Variables
 	 */
 	// fmt.Println("1. Variables")
-	// getVariables()
+	// cards.GetVariables()
 
 	/*
-	 * Functions
-	 */
-	// fmt.Println("2. Functions")
-	// getCard()
+		 * Functions
+		 *
+		// fmt.Println("2. Functions")
+		// getCard()
 
-	/*
-	 * Arrays and Slices
-	 */
+		/*
+		 * Arrays and Slices
+	*/
 	// fmt.Println("3. Arrays and Slices")
 	// getCards()
 
@@ -65,14 +63,14 @@ func main() {
 	// cards.print()
 
 	/*
-	 * Shuffle	
+	 * Shuffle
 	 */
 	// cards := newDeck()
 	// cards.shuffle()
 	// cards.print()
 
 	/*
-	 * Assignment: Odd or Even	
+	 * Assignment: Odd or Even
 	 */
-	 evenOrOdd()
+	// cards.EvenOrOdd()
 }
